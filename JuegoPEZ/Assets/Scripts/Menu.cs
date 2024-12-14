@@ -3,22 +3,27 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour {
 
+    private void OnEnable()
+    {
 
-    public void play()
+        SceneManager.LoadScene(0);
+
+    }
+    private void play()
     {
 
         SceneManager.LoadScene(1);
 
     }
 
-    public void credits()
+    private void credits()
     {
 
         SceneManager.LoadScene(2);
 
     }
-    
-    public void exit()
+
+    private void exit()
     {
 
         Debug.Log("Exit");
