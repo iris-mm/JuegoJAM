@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dienteRojoReal_0: 4603317957947852267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
