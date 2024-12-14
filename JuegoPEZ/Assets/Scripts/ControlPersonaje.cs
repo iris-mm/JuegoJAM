@@ -7,6 +7,12 @@ public class ControlPersonaje : MonoBehaviour
     public float moveSpeed;
     public bool isMoving;
     public Vector2 input;
+
+    private Animator animator;
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
     void Start()
     {
         
@@ -20,13 +26,23 @@ public class ControlPersonaje : MonoBehaviour
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
 
+            if (input.x != 0) input.y = 0;
+
+           
             if (input != Vector2.zero)
             {
+                animator.SetFloat("MoveY", input.y);
+                animator.SetFloat("MoveX", input.x);
+
                 var targetPosition = transform.position;
                 targetPosition.x += input.x;
                 targetPosition.y += input.y;
+
+                StartCoroutine(Move(targetPosition));
             }
         }
+
+        animator.SetBool("IsMoving", isMoving);
     }
 
     IEnumerator Move(Vector3 targetPosition)
