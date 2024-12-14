@@ -7,6 +7,8 @@ public class ControlPersonaje : MonoBehaviour
     public float moveSpeed;
     public bool isMoving;
     public Vector2 input;
+    public float collision;
+    public LayerMask Solido;
 
     private Animator animator;
     private void Awake()
@@ -15,7 +17,7 @@ public class ControlPersonaje : MonoBehaviour
     }
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -28,23 +30,31 @@ public class ControlPersonaje : MonoBehaviour
 
             if (input.x != 0) input.y = 0;
 
-           
+
             if (input != Vector2.zero)
             {
                 animator.SetFloat("MoveY", input.y);
                 animator.SetFloat("MoveX", input.x);
 
                 var targetPosition = transform.position;
-                targetPosition.x += input.x;
-                targetPosition.y += input.y;
+                targetPosition.x += input.x/2;
+                targetPosition.y += input.y/2;
 
-                StartCoroutine(Move(targetPosition));
+                if (transitable(targetPosition))
+                    StartCoroutine(Move(targetPosition));
             }
         }
 
         animator.SetBool("IsMoving", isMoving);
     }
 
+    private bool transitable(Vector3 targetPosition){
+        if(Physics2D.OverlapCircle(targetPosition, collision, Solido) != null)
+        {
+            return false;
+        }
+        return true;
+    }
     IEnumerator Move(Vector3 targetPosition)
     {
         isMoving= true;
@@ -53,6 +63,8 @@ public class ControlPersonaje : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed*Time.deltaTime);
             yield return null;
         }
+
+        
         transform.position = targetPosition;
 
         isMoving= false;
