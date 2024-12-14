@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chicleRosa_0: -20195507526055660
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

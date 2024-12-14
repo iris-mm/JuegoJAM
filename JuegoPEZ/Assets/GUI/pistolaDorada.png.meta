@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pistolaDorada_0: 6439659994485610058
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

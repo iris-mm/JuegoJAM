@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      campana_0: 115127168466244408
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
