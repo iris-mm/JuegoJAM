@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 3d1718cd930696c4b9de1339f620bc3c
+guid: 208ee37059b1c7f4cb0cc899ac47f053
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -131756976555332216
-    second: SlotMachinesAnimationSheet_1_0
-  - first:
-      213: -7103558883940312873
-    second: SlotMachinesAnimationSheet_1_1
-  - first:
-      213: -1897751020786926566
-    second: SlotMachinesAnimationSheet_1_2
+      213: 7681044171860850835
+    second: fondo negro_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,67 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SlotMachinesAnimationSheet_1_0
+      name: fondo negro_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 212
-        width: 256
-        height: 44
+        y: 0
+        width: 1718
+        height: 2430
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88d6db75ab7eb2ef0800000000000000
-      internalID: -131756976555332216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SlotMachinesAnimationSheet_1_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 164
-        width: 256
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d8daa1d4d61b6d90800000000000000
-      internalID: -7103558883940312873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SlotMachinesAnimationSheet_1_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 116
-        width: 129
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1c3cd55085d9a5e0800000000000000
-      internalID: -1897751020786926566
+      spriteID: 398b9d77afc889a60800000000000000
+      internalID: 7681044171860850835
       vertices: []
       indices: 
       edges: []
@@ -175,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 83dd6285244be9f40a49e8c081d42eac
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SlotMachinesAnimationSheet_1_0: -131756976555332216
-      SlotMachinesAnimationSheet_1_1: -7103558883940312873
-      SlotMachinesAnimationSheet_1_2: -1897751020786926566
+      fondo negro_0: 7681044171860850835
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
