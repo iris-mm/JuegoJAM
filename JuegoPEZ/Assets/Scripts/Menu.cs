@@ -12,14 +12,14 @@ public class Menu : MonoBehaviour {
     private void play()
     {
 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
 
     }
 
     private void credits()
     {
 
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
 
     }
 

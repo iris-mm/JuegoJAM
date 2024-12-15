@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BatallaFinal.unity
     guid: 76f12ad1d9314b646a33e33d1e53e6ff
+  - enabled: 1
+    path: Assets/Scenes/INTRO.unity
+    guid: e74f40f161c55da4d874e7395785c1f8
+  - enabled: 1
+    path: Assets/Scenes/OUTRO.unity
+    guid: 321c41e43cca763449c0c29771cc2ce9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
