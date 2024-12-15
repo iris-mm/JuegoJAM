@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Treboles4_0: -4895545925194938596
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
