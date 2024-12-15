@@ -15249,7 +15249,9 @@ GameObject:
   - component: {fileID: 626681187}
   - component: {fileID: 626681188}
   - component: {fileID: 626681189}
+
   m_Layer: 7
+
   m_Name: Alien
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -15345,7 +15347,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1817278573
   m_SortingLayer: 5
+
   m_SortingOrder: 3
+
   m_Sprite: {fileID: 1333401826788945531, guid: 9a1f12e47e5840346a88f8694de9a73e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -15443,7 +15447,9 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+
   m_Size: {x: 2, y: 2}
+
   m_EdgeRadius: 0
 --- !u!114 &626681189
 MonoBehaviour:
