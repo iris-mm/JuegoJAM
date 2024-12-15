@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mesaSlotBuena_0: -8033813325149505172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
