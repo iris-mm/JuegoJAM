@@ -849,7 +849,9 @@ MonoBehaviour:
 
 
 
-    Tira de la palanca'
+    Tira de la palanca
+
+    pulsando P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: abac5c62a1c40fd478aeb2ede6392d7b, type: 2}
   m_sharedMaterial: {fileID: 4089964711842588689, guid: abac5c62a1c40fd478aeb2ede6392d7b, type: 2}
