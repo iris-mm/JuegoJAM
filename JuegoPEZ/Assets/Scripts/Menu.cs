@@ -3,7 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    
+    public void Primero()
+    {
+        SceneManager.LoadScene(0);
+    }
     public void play()
     {
 
