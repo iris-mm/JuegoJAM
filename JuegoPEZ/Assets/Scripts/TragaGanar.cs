@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TragaperrasGanar : MonoBehaviour
 {
@@ -55,9 +56,19 @@ public class TragaperrasGanar : MonoBehaviour
                 if (i == 9)
                 {
                     animator.SetInteger("vuelta", 10);
+                    Wow();
                 }
             }
         }
+    }
+    private void Wow()
+    {
+        Invoke("GanarJuego", 3);
+    }
+
+    private void GanarJuego()
+    {
+        SceneManager.LoadScene(8);
     }
 
     void palanca()
