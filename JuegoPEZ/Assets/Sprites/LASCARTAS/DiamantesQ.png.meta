@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DiamantesQ_0: 761800363192513619
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
