@@ -5,7 +5,7 @@ public class Afterintro : MonoBehaviour
 {
     private void OnEnable()
     {
-        Invoke("GoCasino", 43);
+        Invoke("GoCasino", 60);
     }
 
     private void GoCasino()
