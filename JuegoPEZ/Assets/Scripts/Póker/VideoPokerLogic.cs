@@ -4,7 +4,7 @@ using System.Linq; // Necesario para usar LINQ
 
 public class VideoPokerLogic : MonoBehaviour
 {
-
+    public MostrarPremio mostrarPremio;
     // Constantes para los premios
     public int ESCALERA_REAL = 9;
     public int ESCALERA_COLOR = 8;
@@ -80,7 +80,7 @@ public class VideoPokerLogic : MonoBehaviour
 
         }
         ActualizarSprites();
-        Premio(manoJugador);
+        Premio(manoJugador, mostrarPremio);
         iniciado = false;
     }
 
@@ -132,16 +132,13 @@ public class VideoPokerLogic : MonoBehaviour
         return cartasLogicas;
     }
 
-    public int Premio(int[] indexMano)
+    public int Premio(int[] indexMano, MostrarPremio mostrarPremio)
     {
-        
-
         Array.Sort(indexMano); // Ordenar los índices de las cartas
         CartaLogica[] mano = CrearCartasDesdeIndices(indexMano);
 
-        // Variables para evaluar las combinaciones
         int straight = 0, flush = 0;
-        string descripcionPremio = "Ninguna combinación"; // Inicializamos con el peor caso
+        string descripcionPremio = "Ninguna combinación";
 
         // Verificar si es un color (todas las cartas tienen el mismo palo)
         if (mano.All(c => c.palo == mano[0].palo))
@@ -151,67 +148,71 @@ public class VideoPokerLogic : MonoBehaviour
         if (mano.Zip(mano.Skip(1), (c1, c2) => c2.valor - c1.valor).All(diff => diff == 1))
             straight = 1;
         else if (mano[0].valor == 1 && mano[1].valor == 2 && mano[2].valor == 3 && mano[3].valor == 4 && mano[4].valor == 13)
-            straight = 1; // Caso especial: Escalera "Wheel" (A, 2, 3, 4, 5)
+            straight = 1; // Caso especial: Escalera "Wheel"
 
-        // Crear un diccionario para contar las apariciones de cada valor
         var contadorValores = mano.GroupBy(c => c.valor).ToDictionary(g => g.Key, g => g.Count());
 
-        // Verificar combinaciones basadas en los conteos
         int premio;
         if (straight == 1 && flush == 1)
         {
             if (mano[0].valor == 10)
             {
-                premio = ESCALERA_REAL;
+                premio = 9;
                 descripcionPremio = "Escalera Real";
             }
             else
             {
-                premio = ESCALERA_COLOR;
+                premio = 8;
                 descripcionPremio = "Escalera de Color";
             }
         }
         else if (flush == 1)
         {
-            premio = COLOR;
+            premio = 5;
             descripcionPremio = "Color";
         }
         else if (straight == 1)
         {
-            premio = ESCALERA;
+            premio = 4;
             descripcionPremio = "Escalera";
         }
         else if (contadorValores.ContainsValue(4))
         {
-            premio = POKER;
+            premio = 7;
             descripcionPremio = "Póker";
         }
         else if (contadorValores.ContainsValue(3) && contadorValores.ContainsValue(2))
         {
-            premio = FULL_HOUSE;
+            premio = 6;
             descripcionPremio = "Full House";
         }
         else if (contadorValores.ContainsValue(3))
         {
-            premio = TRIO;
+            premio = 3;
             descripcionPremio = "Trío";
         }
         else if (contadorValores.Values.Count(v => v == 2) == 2)
         {
-            premio = DOS_PAREJAS;
+            premio = 2;
             descripcionPremio = "Dos Parejas";
         }
         else if (contadorValores.Values.Any(v => v == 2))
         {
-            premio = PAREJA;
+            premio = 1;
             descripcionPremio = "Pareja";
         }
         else
         {
-            premio = SIN_COMBINACION;
+            premio = 0;
+            descripcionPremio = "Ninguna combinación";
         }
 
-        Debug.Log($"Premio: {descripcionPremio}");
+        // Mostrar el tipo de premio en pantalla
+        if (mostrarPremio != null)
+        {
+            mostrarPremio.ActualizarTextoPremio($"Resultado: {descripcionPremio}");
+        }
+
         return premio;
     }
 }
