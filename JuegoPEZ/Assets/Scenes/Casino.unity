@@ -154,8 +154,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.24787502, y: 0.24711116}
   m_AnchorMax: {x: 0.74712497, y: 0.75000006}
-  m_AnchoredPosition: {x: -12.799988, y: -336.94995}
-  m_SizeDelta: {x: 1098.65, y: 6.05}
+  m_AnchoredPosition: {x: 4.799988, y: -17}
+  m_SizeDelta: {x: 983.93, y: -58.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &24102583
 MonoBehaviour:
@@ -15250,12 +15250,12 @@ GameObject:
   - component: {fileID: 626681188}
   - component: {fileID: 626681189}
   m_Layer: 7
-  m_Name: 
+  m_Name: Alien
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &626681183
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15295,7 +15295,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1.55}
-    newSize: {x: 0.9, y: 1.3}
+    newSize: {x: 1, y: 1.55}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -15345,16 +15345,16 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1817278573
   m_SortingLayer: 5
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 1333401826788945531, guid: 9a1f12e47e5840346a88f8694de9a73e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 1.55}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &626681186
@@ -15366,7 +15366,7 @@ Transform:
   m_GameObject: {fileID: 626681182}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1106727, y: -0.5289333, z: -634.5316}
+  m_LocalPosition: {x: -0.62, y: 0.67, z: -634.5316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15438,12 +15438,12 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1.55}
-    newSize: {x: 0.9, y: 1.3}
+    newSize: {x: 1, y: 1.55}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!114 &626681189
 MonoBehaviour:
@@ -15458,9 +15458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineasDialog:
-  - 'Alien: Que loko caballero'
-  - 'Alien: feliz navidad'
-  - 'Alien: ostias putas'
+  - ahdjfjack
   dialogo: {fileID: 24102581}
   textoDialog: {fileID: 1810208823}
 --- !u!1 &730114604
@@ -16754,7 +16752,7 @@ Transform:
   m_GameObject: {fileID: 897623510}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.49058318, y: -4.628889, z: -10}
+  m_LocalPosition: {x: -0.49037108, y: -4.628889, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23805,6 +23803,7 @@ GameObject:
   - component: {fileID: 1629531204}
   - component: {fileID: 1629531203}
   - component: {fileID: 1629531205}
+  - component: {fileID: 1629531206}
   m_Layer: 0
   m_Name: DienteRojo
   m_TagString: Player
@@ -23903,6 +23902,52 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   spriteOffsetY: 0.5
+--- !u!61 &1629531206
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629531202}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9, y: 1.3}
+    newSize: {x: 0.9, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.9, y: 1.3}
+  m_EdgeRadius: 0
 --- !u!1 &1778318990
 GameObject:
   m_ObjectHideFlags: 0
@@ -24004,7 +24049,7 @@ Transform:
   m_GameObject: {fileID: 1778318990}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.49058318, y: -4.628889, z: -10}
+  m_LocalPosition: {x: -0.49037108, y: -4.628889, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

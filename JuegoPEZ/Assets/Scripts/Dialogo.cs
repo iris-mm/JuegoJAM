@@ -16,7 +16,7 @@ public class Dialogo : MonoBehaviour
     public void Update()
     {
         if (enRango && Input.GetKeyDown("c")) {
-
+            Debug.Log("empieza");
             if (!didDialogueStart)
             {
                 StartDialogue();
@@ -71,6 +71,7 @@ public class Dialogo : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            Debug.Log("choque");
             enRango = true;
         }
     }
