@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaMala (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -252,8 +256,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.24787502, y: 0.24711116}
   m_AnchorMax: {x: 0.74712497, y: 0.75000006}
-  m_AnchoredPosition: {x: 0, y: -95.390396}
-  m_SizeDelta: {x: 983.93, y: 253.21}
+  m_AnchoredPosition: {x: 0, y: -114.890396}
+  m_SizeDelta: {x: 983.93, y: 331.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &24102583
 MonoBehaviour:
@@ -9575,8 +9579,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineasDialog:
-  - Mm?
-  - "Qu\xE9 d\xEDa es hoy?"
+  - "\xBFMm?"
+  - "\xBFQu\xE9 d\xEDa es hoy?"
+  - Creo que he visto una tragaperras distinta al resto...
+  - "\xBFO lo he so\xF1ado?"
   dialogo: {fileID: 24102581}
   textoDialog: {fileID: 1810208823}
 --- !u!61 &74934822
@@ -10366,6 +10372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaMala (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -10434,7 +10444,7 @@ Transform:
   m_GameObject: {fileID: 290547718}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.25523, y: 7.4211864, z: -634.5316}
+  m_LocalPosition: {x: 25.881668, y: 7.9905944, z: -634.5316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10453,7 +10463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineasDialog:
-  - "Qu\xE9 miras?"
+  - "\xBFQu\xE9 miras?"
   - "(Est\xE1 como pegada a la pared...)"
   dialogo: {fileID: 24102581}
   textoDialog: {fileID: 1810208823}
@@ -14497,6 +14507,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: plantita
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -16021,6 +16035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaMala (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -16118,6 +16136,10 @@ PrefabInstance:
     - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_Name
       value: lol
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
@@ -16358,11 +16380,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineasDialog:
-  - Amigo escuha! Esta gente no es lo que parece...
+  - "\xA1Amigo, escuha! Esta gente no es lo que parece..."
   - Yo lo he visto. Se quedan pegados a los muebles y son viscosos.
-  - "Hay algo detr\xE1s... algo que les impide salir de aqu\xED."
-  - Ejem
-  - "T\xFA no has o\xEDdo esto salir de mi orificio de habla, eh?"
+  - "Hay algo detr\xE1s... Algo les impide salir de aqu\xED."
+  - Ejem...
+  - "T\xFA no has o\xEDdo esto salir de mi orificio de habla, \xBFeh?"
   dialogo: {fileID: 24102581}
   textoDialog: {fileID: 1810208823}
 --- !u!1001 &668904150
@@ -16424,6 +16446,10 @@ PrefabInstance:
     - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_Name
       value: dinerito
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
@@ -17385,6 +17411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaBuena
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -17477,6 +17507,10 @@ PrefabInstance:
     - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_Name
       value: CajaMala (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
@@ -17922,6 +17956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaMala (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -18019,6 +18057,10 @@ PrefabInstance:
     - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_Name
       value: CajaMala (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
@@ -18147,7 +18189,7 @@ Transform:
   m_GameObject: {fileID: 897623510}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4908874, y: -4.628889, z: -10}
+  m_LocalPosition: {x: -0.4924044, y: -4.628889, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20437,11 +20479,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineasDialog:
-  - Hmph
-  - "Si me preguntas mi opini\xF3n, creo que en vez de Ares Sociedad An\xF3nima"
+  - "\xA1Hmph!"
+  - "Si me preguntas mi opini\xF3n, creo que en vez de Ares Sociedad An\xF3nima,"
   - "deber\xEDan llamarse Ares Secta Antidopaje, like."
-  - Hago un juramento al dios de la campana de fresa para hacerme VIP
-  - pero luego no me puedo meter un chute de nada??
+  - Hago un juramento al dios de la campana de fresa para hacerme VIP...
+  - "\xBF\xBFPero luego no me puedo meter un chute de nada??"
   - ...Paso mil. So NOT cool.
   dialogo: {fileID: 24102581}
   textoDialog: {fileID: 1810208823}
@@ -23010,6 +23052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaMala (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -23107,6 +23153,10 @@ PrefabInstance:
     - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_Name
       value: CajaMala (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
@@ -23206,6 +23256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaMala (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -23303,6 +23357,10 @@ PrefabInstance:
     - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_Name
       value: CajaMala (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
@@ -23402,6 +23460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bebidas
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -23494,7 +23556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineasDialog:
   - Si, si...
-  - Lo juro por el eh, dios de la fresa (?).
+  - Lo juro por el dios de la fresa (?).
   dialogo: {fileID: 24102581}
   textoDialog: {fileID: 1810208823}
 --- !u!61 &1203501797
@@ -23730,6 +23792,10 @@ PrefabInstance:
     - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_Name
       value: "p\xF3ker"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
@@ -25148,7 +25214,7 @@ Transform:
   m_GameObject: {fileID: 1323641233}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.51, y: 12.97, z: -634.5316}
+  m_LocalPosition: {x: 6.5109663, y: 12.284616, z: -634.5316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25167,7 +25233,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineasDialog:
-  - "La partida est\xE1 super intensa."
+  - "Eh, \xBFTe apetece jugar un rato al p\xF3ker? La mesa verde est\xE1 para eso."
+  - "Aqu\xED se juega a una versi\xF3n un poco distinta, para un solo jugador."
+  - "Intenta hacer la mejor mano de p\xF3ker posible, y multiplica tu dinero."
   dialogo: {fileID: 24102581}
   textoDialog: {fileID: 1810208823}
 --- !u!61 &1323641236
@@ -25794,6 +25862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaMala
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -25862,7 +25934,7 @@ Transform:
   m_GameObject: {fileID: 1388012266}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.08, y: 14.99, z: -634.5316}
+  m_LocalPosition: {x: -6.079034, y: 7.6221304, z: -634.5316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25881,12 +25953,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineasDialog:
-  - Muy buen periodo temoral caballero.
-  - Se me conoce como Leonardo el Afortunado.....
+  - Muy buen periodo temporal, caballero.
+  - Se me conoce como Leonardo el Afortunado...
   - "Ah! pero no pongas esa cara. F\xEDjate, si viajas"
-  - en el sentido de la maravillosa "L" cuando se mira al espejo,
-  - "hallar\xE1s la caldera de oro ju ju ju"
-  - Erm, la tragaperras, el dinero bro
+  - en el sentido de la maravillosa "L" cuando se mira al espejo...
+  - "\xA1Hallar\xE1s la caldera de oro! Ju ju ju..."
+  - Erm... La tragaperras. El dinero, bro.
   dialogo: {fileID: 24102581}
   textoDialog: {fileID: 1810208823}
 --- !u!61 &1388012269
@@ -26123,6 +26195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaMala
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -26312,6 +26388,10 @@ PrefabInstance:
     - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_Name
       value: papelera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
@@ -27593,6 +27673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaMala (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -27933,7 +28017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineasDialog:
-  - No me hables porfa
+  - No me hables, porfa.
   dialogo: {fileID: 24102581}
   textoDialog: {fileID: 1810208823}
 --- !u!61 &1716858860
@@ -28170,6 +28254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaMala (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -28217,7 +28305,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1768625411}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: SlotInteract
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28358,7 +28446,7 @@ Transform:
   m_GameObject: {fileID: 1778318990}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4908874, y: -4.628889, z: -10}
+  m_LocalPosition: {x: -0.4924044, y: -4.628889, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28398,8 +28486,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 35}
-  m_SizeDelta: {x: -400, y: -230}
+  m_AnchoredPosition: {x: 0.000061035156, y: 35}
+  m_SizeDelta: {x: -244, y: -230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1810208823
 MonoBehaviour:
@@ -28448,8 +28536,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 120
-  m_fontSizeBase: 120
+  m_fontSize: 105
+  m_fontSizeBase: 105
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -28560,6 +28648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: planta
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -28635,6 +28727,10 @@ PrefabInstance:
     - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_Name
       value: CajaMala (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
@@ -28733,6 +28829,10 @@ PrefabInstance:
     - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_Name
       value: CajaMala (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
@@ -29483,6 +29583,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaMala (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -29607,6 +29711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajaMala (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -29704,6 +29812,10 @@ PrefabInstance:
     - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_Name
       value: CajaMala (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807698436643740200, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4964445036639278265, guid: 826b0c2807208a343a73ea50c0ff494d, type: 3}
       propertyPath: m_IsTrigger

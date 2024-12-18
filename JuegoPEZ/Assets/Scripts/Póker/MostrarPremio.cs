@@ -10,4 +10,9 @@ public class MostrarPremio : MonoBehaviour
     {
         textoPremio.text = mensaje;
     }
+
+    public void ReinicioTexto()
+    {
+        textoPremio.text = null;
+    }
 }

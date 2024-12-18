@@ -35,7 +35,7 @@ public class VideoPokerLogic : MonoBehaviour
     void InicioRonda()
     {
 
-
+        mostrarPremio.ReinicioTexto();
         baraja = new Baraja();
         baraja.Barajar();
         GenerarMano();
