@@ -558,6 +558,7 @@ GameObject:
   - component: {fileID: 921808555}
   - component: {fileID: 921808554}
   - component: {fileID: 921808557}
+  - component: {fileID: 921808558}
   m_Layer: 0
   m_Name: Tragaperras
   m_TagString: Untagged
@@ -671,6 +672,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 0}
   animator: {fileID: 0}
+--- !u!114 &921808558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921808553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9448edf16e43bb40b2d07f716bdf647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1021950106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,7 +1124,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 473171064}
+      - m_Target: {fileID: 921808558}
         m_TargetAssemblyTypeName: EscenasJuego, Assembly-CSharp
         m_MethodName: salirGamble
         m_Mode: 1
